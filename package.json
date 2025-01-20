@@ -2,6 +2,7 @@
   "name": "reactive-native-expo",
   "main": "expo-router/entry",
   "version": "1.0.0",
+  "homepage": "https://github.com/sanjeetkumaritoutlook/reactive-native-expo",
   "scripts": {
     "start": "expo start",
     "reset-project": "node ./scripts/reset-project.js",
@@ -9,7 +10,9 @@
     "ios": "expo start --ios",
     "web": "expo start --web",
     "test": "jest --watchAll",
-    "lint": "expo lint"
+    "lint": "expo lint",
+    "predeploy": "expo build:web",
+    "deploy": "gh-pages -d web-build"
   },
   "jest": {
     "preset": "jest-expo"
