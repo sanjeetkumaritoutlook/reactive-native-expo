@@ -38,9 +38,7 @@ jobs:
 
       # Step 4: Build the Expo web app
       - name: Build the Expo for Web (React Native for web) 
-        run:  |
-             # Build the web version of the app
-             npm run web
+        run:  npx expo export:web
 
 
       # Add a cleanup step to avoid old deployment data
