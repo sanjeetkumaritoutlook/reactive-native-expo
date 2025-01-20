@@ -4,6 +4,9 @@ This is an [Expo](https://expo.dev) project created with [`create-expo-app`](htt
 
 ## Dowload Expo Go mobile app for simulator of ur local web app
 it runs on local: http://localhost:8081/
+
+## Expo for Web (React Native for web) 
+Use Webpack instead of default Metro bundler for Github pages deployment
 ## Get started
 
 1. Install dependencies
